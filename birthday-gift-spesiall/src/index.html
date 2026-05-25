@@ -1,0 +1,74 @@
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Special Access Only</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="login-page" class="card">
+    <h2>🔒 Khusus Orang Spesial</h2>
+    <p class="subtitle">Masukkan data kamu untuk membuka hadiah</p>
+    
+    <div class="input-group">
+      <label>Nama Panggilan Kamu</label>
+      <input type="text" id="username" placeholder="Apa coba hayohh (gausah pake huruf besar)">
+    </div>
+    
+    <div class="input-group">
+      <label>Tanggal Lahir Kamu (DDMMYY)</label>
+      <input type="text" id="password" placeholder="gausa pke huruf besar sama spasi (bulannya pake huruf)">
+    </div>
+    
+    <button id="btn-login">Buka Sekarang Cepat ✨</button>
+    <p id="error-msg" class="error"></p>
+  </div>
+
+  <div id="wishes-page" class="card hidden">
+    <h1>🎉 Happy Birthday, Sayang! 💖</h1>
+    <div class="heart-icon">💝</div>
+    
+    <div class="section-title">🎵 Play Lagunya Okeyy ❤️:</div>
+    <div class="video-container" style="margin-bottom: 25px;">
+      <iframe src="https://www.youtube.com/embed/MdcoTp-vnBE?rel=0" title="Music Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    
+    <p class="wishes">
+      Selamat ulang tahun ya, Sayanggkuuuuu! 🥳<br><br>
+      Semoga di usia kamu yang udah tua ini, kamu selalu diberikan kesehatan, kebahagiaan yang melimpah, dan semua yang kamu mau bisa tercapai. Makasih ya udah jadi orang yang paling mau maafin kesalahan-kesalahan aku yang amat sangat banyak ini, masi kuat juga ngejalanin hubungannya sama aku, dan selalu kuat dihubungan yang ldr ini. <br><br>
+      Aku bersyukur banget bisa ketemu orang yang baik, selalu maafin aku, sabar ngadepin aku (suka marah sih sebenernya kamu), dan selalu percaya sama apa yang kita lakuin. Sayangg jangan pergi kemana mana yaa, sama aku ajaa jangan ilang jangan tinggalin aku juga, see uu nanti yaa buat ngerayain ulang tahun kamu yang sudahh tua inii. <i>I love you more than words can say!</i> 👑✨
+    </p>
+    
+    <button id="btn-next" class="btn-primary">Lihat Kejutan Berikutnya 👉</button>
+  </div>
+
+  <div id="gallery-page" class="card hidden">
+    <h2>📹 Video Spesial Buat Kamu</h2>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/o-5VGvGoWlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="section-title">📸 Memori Kecil-Kecilan</div>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="https://cdn.discordapp.com/attachments/1508323755942871164/1508347664717316106/pg-bdo-tones-2291068.jpeg?ex=6a1535bb&is=6a13e43b&hm=a752bd22fa65c21588a0299fecd7941e91ed7c4115e3a50b2fc27c55500bb06c" alt="Foto 1">
+        <p>Coba Inget-Inget Kapan Ini 🥰</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://cdn.discordapp.com/attachments/1508323755942871164/1508325876087914596/IMG_3236.JPG?ex=6a152170&is=6a13cff0&hm=764856051afdb0a743141add49ae2847b1b3298d8856fb7f1a0b157d7a23fef8&" alt="Foto 2">
+        <p>Si Yang Selalu Bikin Kangen Senyumnya 🤍</p>
+      </div>
+      <div class="gallery-item">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/qwZunRYDOGQ" title="Momen Seru" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p>Momen Terbaik Terseru Sama Kamu 🎬</p>
+      </div>
+    </div>
+    
+    <button id="btn-back" class="btn-secondary">⬅️ Baca Ucapan Lagi</button>
+  </div>
+
+</body>
+</html>
